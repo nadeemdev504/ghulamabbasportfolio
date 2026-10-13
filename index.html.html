@@ -1,199 +1,218 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Prof. Dr. Ghulam Abbas | Senior Nephrologist & Kidney Specialist</title>
-<meta name="description" content="Best nephrologist in [City]: kidney transplant, dialysis and CKD care by Professor Dr. Ghulam Abbas. Book a consultation.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="description" content="Best nephrologist: kidney transplant, dialysis and CKD care by Prof. Dr. Ghulam Abbas. Book a consultation.">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--blue:#0F4C81;--blue-d:#1A365D;--teal:#007A6C;--bg:#F8FAFC;--card:#fff;--text:#1E293B;--muted:#475569;--line:#E2E8F0;--soft:#E8F1F8;
+:root{--pri:#5B2EE0;--ac:#5B2EE0;--bg:#fff;--card:#fff;--text:#1B1B2F;--muted:#505068;--line:#E7E5F2;--soft:#F4F1FF;--dk:#1B1B2F;
 box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--blue:#7FB6E8;--blue-d:#0B1B30;--teal:#3DD6C3;--bg:#0E1726;--card:#16223A;--text:#E6EDF6;--muted:#A9B7CB;--line:#26354F;--soft:#152743}}
-:root[data-theme="dark"]{--blue:#7FB6E8;--blue-d:#0B1B30;--teal:#3DD6C3;--bg:#0E1726;--card:#16223A;--text:#E6EDF6;--muted:#A9B7CB;--line:#26354F;--soft:#152743}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--ac:#B9A2FF;--bg:#13121F;--card:#1E1C30;--text:#F1EFFA;--muted:#B7B4CC;--line:#322F4A;--soft:#1A1830;--dk:#0C0B16}}
+:root[data-theme="dark"]{--ac:#B9A2FF;--bg:#13121F;--card:#1E1C30;--text:#F1EFFA;--muted:#B7B4CC;--line:#322F4A;--soft:#1A1830;--dk:#0C0B16}
 *,*::before,*::after{box-sizing:inherit}
-html{scroll-padding-top:calc(72px + env(safe-area-inset-top,0px));scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--text);font:400 17px/1.65 Inter,system-ui,sans-serif}
-h1,h2,h3{font-family:Merriweather,Georgia,serif;line-height:1.25;margin:0 0 .5em;color:var(--blue)}
-h1{font-size:clamp(2rem,5vw,3.1rem);font-weight:900}
-h2{font-size:clamp(1.6rem,3.5vw,2.2rem)}
-h3{font-size:1.15rem}
-p{margin:0 0 1em;color:var(--muted)}
-a{color:var(--blue)}
-:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
-.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
-section{padding:72px 0}
-.btn{display:inline-block;padding:14px 26px;border-radius:10px;font-weight:600;text-decoration:none;border:2px solid var(--blue);cursor:pointer;font:600 1rem Inter,sans-serif}
-.btn.p{background:#0F4C81;color:#fff;border-color:#0F4C81}
-.btn.s{background:transparent;color:var(--blue)}
-.btn:hover{box-shadow:0 6px 18px rgba(15,76,129,.25)}
-header{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--card);border-bottom:1px solid var(--line)}
-.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:72px}
-.logo{font-family:Merriweather,serif;font-weight:700;color:var(--blue);text-decoration:none;line-height:1.2}
-.logo small{display:block;font:500 .8rem Inter,sans-serif;color:var(--teal)}
-nav ul{display:flex;gap:20px;list-style:none;margin:0;padding:0}
-nav a{text-decoration:none;color:var(--text);font-size:.95rem;font-weight:500}
-nav a:hover{color:var(--blue)}
-@media(max-width:900px){nav ul{display:none}}
-.hero{background:linear-gradient(180deg,var(--soft),var(--bg));padding-top:56px}
-.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}
-.hero .sub{font-size:1.1rem;color:var(--text)}
-.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
-.photo{aspect-ratio:4/5;border-radius:12px;background:linear-gradient(160deg,var(--blue),var(--blue-d));display:grid;place-items:center;color:#fff;text-align:center;padding:20px;box-shadow:0 12px 32px rgba(15,76,129,.25)}
-.photo b{font:900 4rem Merriweather,serif;display:block}
-.photo span{font-size:.9rem;opacity:.85}
-@media(max-width:800px){.hero .wrap{grid-template-columns:1fr}.photo{max-width:320px}}
-.stats{background:var(--blue-d);padding:36px 0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px));height:100%}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--text);font:400 17px/1.65 Inter,system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3{margin:0 0 .5em;line-height:1.15;letter-spacing:-.02em;font-weight:700}
+h1{font-size:clamp(2.3rem,6vw,3.8rem)}h2{font-size:clamp(1.8rem,4vw,2.6rem)}h3{font-size:1.15rem;letter-spacing:-.01em}
+p{margin:0 0 1em;color:var(--muted)}a{color:var(--ac)}
+:focus-visible{outline:3px solid #F59E0B;outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px;position:relative}
+section{padding:80px 0;position:relative}
+.eye{display:block;color:var(--ac);font-size:.9rem;font-weight:600;margin-bottom:8px}
+.head{text-align:center;max-width:620px;margin:0 auto 44px}
+.btn{display:inline-block;padding:13px 26px;border-radius:999px;font:600 1rem Inter,sans-serif;text-decoration:none;border:2px solid #5B2EE0;cursor:pointer;transition:.2s}
+.btn.p{background:#5B2EE0;color:#fff}.btn.s{background:#fff;color:#1B1B2F;border-color:#fff}
+.btn.o{background:transparent;color:var(--ac);border-color:var(--ac)}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(91,46,224,.3)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:72px}
+.logo{font-weight:800;color:var(--text);text-decoration:none;display:flex;align-items:center;gap:10px;line-height:1.15}
+.logo i{width:34px;height:34px;border-radius:50%;background:#FACC15;display:grid;place-items:center;font-style:normal;color:#1B1B2F}
+.logo small{display:block;font-weight:500;color:var(--muted);font-size:.78rem}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0}
+nav a{color:var(--text);text-decoration:none;font-weight:500;font-size:.95rem}nav a:hover{color:var(--ac)}
+@media(max-width:960px){nav ul{display:none}}
+.hero{overflow:hidden;padding:60px 0 90px;background:linear-gradient(135deg,#FBCFE8 0%,var(--soft) 55%)}
+.hero .wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.hero p.sub{font-size:1.15rem;color:var(--text);max-width:480px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0}
+.quote{display:flex;gap:12px;align-items:center;font-size:.92rem;max-width:420px}.quote p{margin:0;font-size:.92rem}
+.av{width:44px;height:44px;border-radius:50%;background:#34D399;flex:none;display:grid;place-items:center;font-weight:700;color:#0B3B2A}
+.art{position:relative;aspect-ratio:1;max-width:460px;justify-self:center;width:100%}
+.blob{position:absolute;inset:6% 0 0 8%;background:#7C4DFF;border-radius:48% 52% 40% 60%/55% 45% 55% 45%;display:grid;place-items:center;text-align:center;color:#fff;padding:30px}
+.blob b{font-size:5rem;display:block;line-height:1}.blob span{font-size:.9rem;opacity:.9}
+.dot{position:absolute;border-radius:50%}
+.d1{width:64px;height:64px;background:#FACC15;top:0;left:2%}.d2{width:44px;height:44px;background:#E11D74;bottom:12%;left:0}
+.d3{width:80px;height:80px;background:#38BDF8;top:12%;right:-4%}.d4{width:36px;height:36px;background:#34D399;bottom:0;right:14%}
+@media(max-width:820px){.hero .wrap{grid-template-columns:1fr}}
+.stats{background:var(--dk);color:#fff;padding:40px 0}
 .stats .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
-.stats b{display:block;font:900 2.2rem Merriweather,serif;color:#fff}
-.stats span{color:#CBD5E1;font-size:.95rem}
+.stats b{display:block;font-size:2.4rem;font-weight:800;color:#FACC15}.stats span{color:#D7D4EA;font-size:.95rem}
 @media(max-width:700px){.stats .wrap{grid-template-columns:repeat(2,1fr)}}
-.about{display:grid;grid-template-columns:1.2fr .8fr;gap:40px}
-@media(max-width:800px){.about{grid-template-columns:1fr}}
-.quals{list-style:none;margin:0;padding:0;display:grid;gap:10px}
-.quals li{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--teal);border-radius:8px;padding:12px 16px;color:var(--text);font-weight:500}
-.quals small{display:block;color:var(--muted);font-weight:400}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;box-shadow:0 2px 10px rgba(15,23,42,.06)}
-.ico{width:44px;height:44px;border-radius:10px;background:var(--soft);display:grid;place-items:center;margin-bottom:14px}
-.ico svg{width:24px;height:24px;stroke:var(--blue);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.card a{font-weight:600;text-decoration:none}
-.alt{background:var(--card);border-block:1px solid var(--line)}
-.pubs{list-style:none;margin:0 0 24px;padding:0}
-.pubs li{padding:16px 0;border-bottom:1px solid var(--line);color:var(--text)}
-.pubs em{display:block;color:var(--muted);font-style:normal;font-size:.92rem}
-table{width:100%;border-collapse:collapse;background:var(--card);border-radius:12px;overflow:hidden;border:1px solid var(--line)}
-th,td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--line);color:var(--text)}
-th{background:var(--soft);color:var(--blue);font-weight:600}
-.scroll{overflow-x:auto}
-blockquote{margin:0}
-blockquote p{color:var(--text);font-size:1rem}
-blockquote footer{font-size:.9rem;color:var(--muted)}
-.stars{color:#B45309;letter-spacing:2px}
-form{display:grid;gap:14px;max-width:520px}
-label{font-weight:600;color:var(--text);display:grid;gap:6px;font-size:.95rem}
-input,select,textarea{font:inherit;padding:12px;border-radius:8px;border:1px solid var(--muted);background:var(--card);color:var(--text)}
-.book{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
-@media(max-width:800px){.book{grid-template-columns:1fr}}
-footer.site{background:var(--blue-d);color:#CBD5E1;padding:48px 0 28px;font-size:.95rem}
-footer.site a{color:#fff}
-footer.site h3{color:#fff}
-.fgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:28px}
-.fgrid ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
-.emer{color:#FCA5A5;font-weight:600}
-.disc{border-top:1px solid #334155;margin-top:28px;padding-top:18px;font-size:.85rem;color:#94A3B8}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-</style>
-</head>
+.two{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:start}
+@media(max-width:820px){.two{grid-template-columns:1fr}}
+.list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.list li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 16px;font-weight:600}
+.list small{display:block;font-weight:400;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:26px;box-shadow:0 10px 30px rgba(60,40,140,.08)}
+.ico{width:46px;height:46px;border-radius:14px;display:grid;place-items:center;margin-bottom:14px}
+.ico svg{width:24px;height:24px;stroke:#1B1B2F;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.alt{background:var(--soft)}
+.vid{padding:0;overflow:hidden;text-decoration:none;color:inherit;display:block;transition:.2s}
+.vid:hover{transform:translateY(-4px)}
+.thumb{position:relative;aspect-ratio:16/9;display:grid;place-items:center;overflow:hidden}
+.thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.play{position:relative;width:62px;height:62px;border-radius:50%;background:#FF0033;display:grid;place-items:center;box-shadow:0 6px 18px rgba(0,0,0,.3)}
+.play:after{content:"";border-left:18px solid #fff;border-top:11px solid transparent;border-bottom:11px solid transparent;margin-left:5px}
+.vb{padding:18px 22px 22px}.vb p{margin:0;font-size:.92rem}
+.blog{cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%}
+.tag{display:inline-block;background:var(--soft);color:var(--ac);border-radius:999px;font-size:.78rem;font-weight:600;padding:3px 12px;margin-bottom:10px}
+.blog:hover{border-color:var(--ac)}
+dialog{max-width:680px;width:calc(100% - 32px);border:0;border-radius:20px;padding:32px;background:var(--card);color:var(--text)}
+dialog::backdrop{background:rgba(20,10,50,.6)}
+.stars{color:#D97706;letter-spacing:2px}
+.map{border-radius:20px;min-height:320px;background:linear-gradient(135deg,#CFE9FF,#E5DBFF);display:grid;place-items:center;text-align:center;padding:24px;position:relative;overflow:hidden}
+.map .pin{width:56px;height:56px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:#E11D74;margin:0 auto 18px;box-shadow:0 8px 20px rgba(225,29,116,.4)}
+.map h3,.map p{color:#1B1B2F}
+.scroll{overflow-x:auto;border-radius:20px;border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;background:var(--card);min-width:440px}
+th,td{text-align:left;padding:14px 16px;border-bottom:1px solid var(--line)}th{background:var(--soft);color:var(--ac)}
+tr:last-child td{border:0}
+.sel{cursor:pointer}.sel.on td{background:var(--soft)}
+form{display:grid;gap:14px;max-width:480px}
+label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+input,select{font:inherit;padding:12px 14px;border-radius:12px;border:1px solid var(--muted);background:var(--card);color:var(--text)}
+footer.site{background:var(--dk);color:#D7D4EA;padding:52px 0 28px;font-size:.95rem}
+footer.site h3{color:#fff}footer.site a{color:#fff}
+.fg{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:28px}
+.fg ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.em{color:#FDA4AF;font-weight:600}
+.disc{border-top:1px solid #3a3750;margin-top:28px;padding-top:18px;font-size:.85rem;color:#A7A3C0}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}html{scroll-behavior:auto}}
+</style></head>
 <body>
 <header><div class="wrap nav">
-<a class="logo" href="#top">Prof. Dr. Ghulam Abbas<small>Senior Nephrologist | Kidney Specialist</small></a>
+<a class="logo" href="#home"><i>✚</i><span>Prof. Dr. Ghulam Abbas<small>Senior Nephrologist</small></span></a>
 <nav aria-label="Main"><ul>
-<li><a href="#about">About</a></li><li><a href="#services">Clinical Expertise</a></li><li><a href="#research">Research</a></li><li><a href="#locations">Clinics</a></li><li><a href="#reviews">Patient Reviews</a></li>
+<li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Treatments</a></li><li><a href="#stories">Success Stories</a></li><li><a href="#blog">Blog</a></li><li><a href="#reviews">Reviews</a></li><li><a href="#clinics">Clinic &amp; Map</a></li>
 </ul></nav>
 <a class="btn p" href="#book">Book Consultation</a>
 </div></header>
-
-<main id="top">
-<section class="hero"><div class="wrap">
+<main>
+<section class="hero" id="home"><div class="wrap">
 <div>
-<h1>Expert Kidney Care Backed by Decades of Clinical and Academic Excellence</h1>
-<p class="sub">Professor and Head of Nephrology. Over 20 years of experience in kidney transplant, dialysis and chronic kidney disease care.</p>
-<div class="cta"><a class="btn p" href="#book">Schedule an Appointment</a><a class="btn s" href="#research">View Academic Work</a></div>
+<h1>Kidney care you can trust, step by step</h1>
+<p class="sub">Professor and Head of Nephrology with over 20 years of experience in kidney transplant, dialysis, chronic kidney disease and other kidney disease.</p>
+<div class="cta"><a class="btn p" href="#book">Schedule an Appointment</a><a class="btn s" href="#stories">Watch Success Stories</a></div>
 </div>
-<div class="photo" role="img" aria-label="Placeholder for doctor's photograph"><div><b>Dr.</b><span>Replace with a professional photo in clinical attire</span></div></div>
-</div></section>
+<div class="art" role="img" aria-label="Placeholder for doctor's photograph">
+<span class="dot d1"></span><span class="dot d2"></span><span class="dot d3"></span><span class="dot d4"></span>
+<div class="blob"><div><b>Dr.</b><span>Doctor's photo goes here</span></div></div>
+</div></div></section>
 
 <div class="stats"><div class="wrap">
-<div><b>20+</b><span>Years of experience</span></div>
-<div><b>5,000+</b><span>Kidney patients treated</span></div>
-<div><b>500+</b><span>Successful transplants</span></div>
-<div><b>50+</b><span>Research papers</span></div>
+<div><b>20+</b><span>Years of experience</span></div><div><b>5,000+</b><span>Kidney patients treated</span></div>
+<div><b>500+</b><span>Successful transplants</span></div><div><b>50+</b><span>Research papers</span></div>
 </div></div>
 
-<section id="about"><div class="wrap about">
-<div>
-<h2>A career built on patient care and teaching</h2>
-<p>Prof. Dr. Ghulam Abbas is Head of the Department of Nephrology at [Hospital / Medical University]. After training in [Country], the doctor returned to build a kidney care programme that combines evidence-based treatment with clear, respectful communication.</p>
-<p>Patients are seen with their families, and every treatment plan is explained in plain language before it begins.</p>
-</div>
-<ul class="quals" aria-label="Qualifications">
-<li>MBBS<small>[University], [Year]</small></li>
-<li>FCPS (Medicine)<small>College of Physicians and Surgeons</small></li>
-<li>FRCP<small>Royal College of Physicians</small></li>
-<li>Fellowship in Nephrology<small>[Institute], [Country]</small></li>
-</ul>
+<section id="about"><div class="wrap two">
+<div><span class="eye">About the doctor</span><h2>A career built on patient care and teaching</h2>
+<p>Prof. Dr. Ghulam Abbas is Head of the Department of Nephrology at Nishtar Medical University & Hospital Multan. He leads a kidney care programme that joins evidence-based treatment with clear, respectful communication.</p>
+<p>Every treatment plan is explained in plain language before it begins, with family members included.</p></div>
+<ul class="list"><li>MBBS<small>Pakistan</small></li><li>FCPS (Medicine)<small>College of Physicians and Surgeons</small></li><li>FCPS (Nephrology)<small>College of Physicians and Surgeons</small></li><li>Research and lectures<small>50+ papers, international conference speaker</small></li></ul>
 </div></section>
 
 <section id="services" class="alt"><div class="wrap">
-<h2>Clinical expertise</h2>
+<div class="head"><span class="eye">Treatments</span><h2>Complete kidney care under one roof</h2></div>
 <div class="grid">
-<article class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3c-4 0-7 3-7 7 0 5 4 9 7 11 3-2 7-6 7-11 0-4-3-7-7-7z"/></svg></div><h3>Chronic Kidney Disease</h3><p>Early detection, diet guidance and medicines that slow kidney damage.</p><a href="#book">Learn more</a></article>
-<article class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s-8-5-8-11a5 5 0 0 1 8-3 5 5 0 0 1 8 3c0 6-8 11-8 11z"/></svg></div><h3>Kidney Transplant</h3><p>Donor assessment, surgery coordination and long-term follow-up.</p><a href="#book">Learn more</a></article>
-<article class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3s6 6 6 10a6 6 0 0 1-12 0c0-4 6-10 6-10z"/></svg></div><h3>Dialysis Management</h3><p>Hemodialysis and peritoneal dialysis, planned around your daily life.</p><a href="#book">Learn more</a></article>
-<article class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div><h3>Hypertension and Glomerular Disease</h3><p>Diagnosis and treatment of kidney-related high blood pressure, protein in urine and nephritis.</p><a href="#book">Learn more</a></article>
-<article class="card"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>Acute Kidney Injury</h3><p>Rapid assessment and treatment when kidney function drops suddenly.</p><a href="#book">Learn more</a></article>
+<article class="card"><div class="ico" style="background:#FBCFE8"><svg viewBox="0 0 24 24"><path d="M12 3c-4 0-7 3-7 7 0 5 4 9 7 11 3-2 7-6 7-11 0-4-3-7-7-7z"/></svg></div><h3>Chronic Kidney Disease</h3><p>Early detection, diet guidance and medicines that slow kidney damage.</p></article>
+<article class="card"><div class="ico" style="background:#FDE68A"><svg viewBox="0 0 24 24"><path d="M12 21s-8-5-8-11a5 5 0 0 1 8-3 5 5 0 0 1 8 3c0 6-8 11-8 11z"/></svg></div><h3>Kidney Transplant</h3><p>Donor assessment, surgery coordination and lifelong follow-up.</p></article>
+<article class="card"><div class="ico" style="background:#BAE6FD"><svg viewBox="0 0 24 24"><path d="M12 3s6 6 6 10a6 6 0 0 1-12 0c0-4 6-10 6-10z"/></svg></div><h3>Hemodialysis Management</h3><p>Includes setting dialysis frequency, monitoring fluid removal targets, and adjusting treatments to minimize side effects.</p></article>
+<article class="card"><div class="ico" style="background:#A7F3D0"><svg viewBox="0 0 24 24"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div><h3>Hypertension and Glomerular Disease</h3><p>Treatment of kidney-related blood pressure, protein in urine and nephritis.</p></article>
+<article class="card"><div class="ico" style="background:#DDD6FE"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>Acute Kidney Injury</h3><p>Rapid assessment when kidney function drops suddenly.</p></article>
+<article class="card"><div class="ico" style="background:#56b39d"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><h3>Peritoneal Dialysis</h3><p>Oversees the entire medical strategy, safety, and prescription for peritoneal dialysis (PD)..</p></article>
+<article class="card"><div class="ico" style="background:#e895e8"><svg viewBox="0 0 24 24" fill="none" stroke="#C2410C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/><line x1="12" y1="11" x2="12" y2="17"/><line x1="9" y1="14" x2="15" y2="14"/></svg></div><h3>Diabetic Kidney Disease</h3><p>Comprehensive management to prevent diabetic nephropathy, control blood sugar impact, and preserve kidney function.</p></article>
 </div></div></section>
 
-<section id="research"><div class="wrap">
-<h2>Academic work and research</h2>
-<ul class="pubs">
-<li>[Title of recent paper on CKD progression]<em>[Journal], [Year] | Lead author</em></li>
-<li>[Title of paper on transplant outcomes]<em>[Journal], [Year] | Co-author</em></li>
-<li>Keynote: [Topic], [International Nephrology Conference]<em>[City], [Year]</em></li>
-<li>Book chapter: [Title], [Publisher]<em>[Year]</em></li>
-</ul>
+<section id="stories"><div class="wrap">
+<div class="head"><span class="eye">Success stories</span><h2>Patients share their recovery</h2><p>Click any video to watch it on our YouTube channel.</p></div>
+<div class="grid" id="vids"></div>
 </div></section>
 
-<section id="locations" class="alt"><div class="wrap">
-<h2>Clinics and hospital affiliations</h2>
-<div class="scroll"><table>
-<thead><tr><th>Hospital</th><th>Days</th><th>OPD timing</th><th>Location</th></tr></thead>
-<tbody>
-<tr><td>[Hospital name 1]</td><td>Mon, Wed, Fri</td><td>10:00 am - 2:00 pm</td><td><a href="#">Open in Maps</a></td></tr>
-<tr><td>[Private clinic]</td><td>Tue, Thu, Sat</td><td>5:00 pm - 8:00 pm</td><td><a href="#">Open in Maps</a></td></tr>
-</tbody></table></div>
+<section id="blog" class="alt"><div class="wrap">
+<div class="head"><span class="eye">Blog</span><h2>Kidney health, explained simply</h2></div>
+<div class="grid" id="posts"></div>
 </div></section>
 
 <section id="reviews"><div class="wrap">
-<h2>What patients say</h2>
+<div class="head"><span class="eye">Patient reviews</span><h2>Trusted by patients and families</h2></div>
 <div class="grid">
-<blockquote class="card"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>Three doctors missed the cause. Professor Ghulam Abbas found it in one visit and explained everything to my family.</p><footer>Verified patient, CKD</footer></blockquote>
-<blockquote class="card"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>My father's dialysis plan finally fits his routine. Calm, patient and always reachable.</p><footer>Family member, dialysis patient</footer></blockquote>
-<blockquote class="card"><div class="stars" aria-label="5 out of 5 stars">★★★★★</div><p>Two years after my transplant, I still get the same careful follow-up.</p><footer>Verified patient, transplant</footer></blockquote>
+<blockquote class="card" style="margin:0"><div class="stars" aria-label="5 stars">★★★★★</div><p style="color:var(--text)">Three doctors missed the cause. Prof. Ghulam Abbas found it in one visit.</p><b>Verified patient, CKD</b></blockquote>
+<blockquote class="card" style="margin:0"><div class="stars" aria-label="5 stars">★★★★★</div><p style="color:var(--text)">My father's dialysis plan finally fits his routine. Calm and always reachable.</p><b>Family member, dialysis</b></blockquote>
+<blockquote class="card" style="margin:0"><div class="stars" aria-label="5 stars">★★★★★</div><p style="color:var(--text)">Two years after my transplant, the follow-up care is still careful.</p><b>Verified patient, transplant</b></blockquote>
 </div></div></section>
 
-<section id="book" class="alt"><div class="wrap book">
-<div>
-<h2>Book a consultation</h2>
-<p>Choose a day and time. Your request opens in WhatsApp so the clinic team can confirm your slot.</p>
-<p><strong>Emergency?</strong> Call the emergency number below or go to the nearest hospital.</p>
-</div>
-<form id="f">
-<label>Your name<input id="n" required autocomplete="name"></label>
-<label>Preferred date<input id="d" type="date" required></label>
+<section id="clinics" class="alt"><div class="wrap" style="max-width: 900px;">
+<div class="head"><span class="eye">Clinics and hospital affiliations</span><h2>Find the clinic nearest to you</h2><p>Select a clinic row to view location on the map below.</p></div>
+<div style="display: flex; flex-direction: column; gap: 30px;">
+<div class="scroll" style="width: 100%;"><table><thead><tr><th>Hospital</th><th>Days</th><th>OPD timing</th><th>Location</th></tr></thead><tbody id="cl"></tbody></table></div>
+<div class="map" style="width: 100%;"><div><div class="pin"></div><h3 id="mn"></h3><p id="ma"></p><a id="ml" class="btn p" target="_blank" rel="noopener">Open in Google Maps</a></div></div>
+</div></div></section>
+
+<section id="book"><div class="wrap two">
+<div><span class="eye">Appointments</span><h2>Book a consultation</h2><p>Pick a day and time. Your request opens in WhatsApp so the clinic team can confirm your slot.</p><p><b>Emergency?</b> Call the emergency number below or go to the nearest hospital.</p></div>
+<form id="f"><label>Your name<input id="n" required autocomplete="name"></label><label>Preferred date<input id="d" type="date" required></label>
 <label>Time slot<select id="t"><option>10:00 am</option><option>11:00 am</option><option>12:00 pm</option><option>5:00 pm</option><option>6:00 pm</option><option>7:00 pm</option></select></label>
-<button class="btn p" type="submit">Send request on WhatsApp</button>
-</form>
+<button class="btn p" type="submit">Send request on WhatsApp</button></form>
 </div></section>
 </main>
 
-<footer class="site"><div class="wrap">
-<div class="fgrid">
-<div><h3>Prof. Dr. Ghulam Abbas</h3><p style="color:#CBD5E1">Senior Nephrologist and Professor of Nephrology</p></div>
-<div><h3>Quick links</h3><ul><li><a href="#about">About</a></li><li><a href="#services">Clinical Expertise</a></li><li><a href="#research">Research</a></li><li><a href="#book">Book Consultation</a></li></ul></div>
-<div><h3>Contact</h3><ul><li class="emer">Emergency: [Phone number]</li><li>Clinic: [Phone number]</li><li>Mon - Sat, 10:00 am - 8:00 pm</li></ul></div>
-</div>
-<p class="disc">Medical information on this site is for education only and does not replace a consultation. <a href="#">Privacy Policy</a></p>
-</div></footer>
+<dialog id="dlg"><h2 id="dt"></h2><p id="db" style="color:var(--text)"></p><button class="btn o" onclick="dlg.close()">Close</button></dialog>
+
+<footer class="site"><div class="wrap"><div class="fg">
+<div><h3>Prof. Dr. Ghulam Abbas</h3><p style="color:#D7D4EA">Senior Nephrologist and Professor of Nephrology</p></div>
+<div><h3>Quick links</h3><ul><li><a href="#about">About</a></li><li><a href="#stories">Success Stories</a></li><li><a href="#blog">Blog</a></li><li><a href="#clinics">Clinic &amp; Map</a></li></ul></div>
+<div><h3>Contact</h3><ul><li class="em">Emergency: 03326181795</li><li>Clinic: 03356057063</li><li>Mon - Sat, 08:00 am - 8:00 pm</li></ul></div>
+</div><p class="disc">Medical information on this site is for education only and does not replace a consultation. <a href="#">Privacy Policy</a></p></div></footer>
 
 <script>
-document.getElementById('f').addEventListener('submit',function(e){
-e.preventDefault();
-var m='Appointment request: '+document.getElementById('n').value+', '+document.getElementById('d').value+' at '+document.getElementById('t').value;
-window.open('https://wa.me/920000000000?text='+encodeURIComponent(m),'_blank','noopener');
-});
+/* ===== EDIT HERE: add YouTube videos. id = the part after v= in the YouTube link ===== */
+var VIDEOS=[
+{id:"VIDEO_ID_1",title:"Kidney transplant: a patient's journey",who:"Success story 1",c:"#FBCFE8"},
+{id:"VIDEO_ID_2",title:"Life on dialysis, and getting better",who:"Success story 2",c:"#BAE6FD"},
+{id:"VIDEO_ID_3",title:"Reversing early kidney damage",who:"Success story 3",c:"#FDE68A"}];
+/* ===== EDIT HERE: add blog posts ===== */
+var POSTS=[
+{tag:"CKD",date:"Oct 2026",title:"7 early signs of kidney disease",text:"Swelling in the feet, foamy urine, tiredness and high blood pressure can all point to kidney trouble. Get a simple urine and blood test if you notice them."},
+{tag:"Diet",date:"Sep 2026",title:"What to eat with weak kidneys",text:"Less salt, balanced protein and the right amount of fluids protect your kidneys. Always ask your doctor for a plan that fits your reports."},
+{tag:"Dialysis",date:"Aug 2026",title:"Dialysis myths, answered",text:"Dialysis is not the end. Many patients work, travel and live full lives. Here is what to expect from each type."}];
+/* ===== EDIT HERE: clinics. q = address used for Google Maps ===== */
+var CLINICS=[
+{n:"Taha Kidney Clinic",d:"Monday to Saturday",t:"10:00 am - 2:00 pm",q:"Taha Clinic, 4CJQ+2F5, Ahmad City Shershah Town, Multan, Pakistan"},
+{n:"Bismillah Kidney Clinic",d:"Monday to Friday",t:"5:00 pm - 8:00 pm",q:"Bismillah Kidney Care Clinic, Bismillah Colony House, 46 No, Ahsan Colony, Multan, 60000, Pakistan"}];
+
+var $=function(i){return document.getElementById(i)};
+$("vids").innerHTML=VIDEOS.map(function(v){
+ var u="https://www.youtube.com/watch?v="+v.id;
+ return '<a class="card vid" href="'+u+'" target="_blank" rel="noopener" aria-label="Watch on YouTube: '+v.title+'"><div class="thumb" style="background:'+v.c+'"><img src="https://img.youtube.com/vi/'+v.id+'/hqdefault.jpg" alt="" loading="lazy" onerror="this.remove()"><span class="play"></span></div><div class="vb"><h3>'+v.title+'</h3><p>'+v.who+' · Watch on YouTube</p></div></a>'}).join("");
+$("posts").innerHTML=POSTS.map(function(p,i){
+ return '<button class="card blog" data-i="'+i+'"><span class="tag">'+p.tag+'</span><h3>'+p.title+'</h3><p>'+p.text.slice(0,90)+'...</p><b style="color:var(--ac)">Read more · '+p.date+'</b></button>'}).join("");
+$("posts").addEventListener("click",function(e){var b=e.target.closest(".blog");if(!b)return;var p=POSTS[b.dataset.i];$("dt").textContent=p.title;$("db").textContent=p.text;$("dlg").showModal()});
+function pick(i){var c=CLINICS[i];$("mn").textContent=c.n;$("ma").textContent=c.d+" | "+c.t;$("ml").href="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(c.q);
+ [].forEach.call($("cl").children,function(r,k){r.classList.toggle("on",k==i)})}
+/* Map Pin Icon in Location Column */
+$("cl").innerHTML=CLINICS.map(function(c,i){
+ var mapUrl = "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(c.q);
+ var pinIcon = '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E11D74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle;"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>';
+ return '<tr class="sel" tabindex="0" data-i="'+i+'"><td><b>'+c.n+'</b></td><td>'+c.d+'</td><td>'+c.t+'</td><td><a href="'+mapUrl+'" target="_blank" rel="noopener" aria-label="Open in Google Maps" onclick="event.stopPropagation()" style="display:inline-flex; align-items:center; text-decoration:none;">'+pinIcon+'</a></td></tr>'
+}).join("");
+$("cl").addEventListener("click",function(e){var r=e.target.closest("tr");if(r)pick(r.dataset.i)});
+$("cl").addEventListener("keydown",function(e){var r=e.target.closest("tr");if(r&&e.key=="Enter")pick(r.dataset.i)});
+pick(0);
+$("f").addEventListener("submit",function(e){e.preventDefault();
+ var m="Appointment request: "+$("n").value+", "+$("d").value+" at "+$("t").value;
+ window.open("https://wa.me/03126591791?text="+encodeURIComponent(m),"_blank","noopener")});
 </script>
-</body>
-</html>
+</body></html>
